@@ -5,9 +5,4 @@ public class TemperatureConverter {
     	 double temperatureFahrenheit = temperatureCelsius*1.8 + 32;
     	 System.out.println(temperatureFahrenheit);
     }
-    
-    public static void main(String[] args) {
-    	TemperatureConverter tc = new TemperatureConverter();
-    	tc.toFahrenheit(23);
-    }
 }
